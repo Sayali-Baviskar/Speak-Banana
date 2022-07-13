@@ -1,0 +1,98 @@
+*{
+    font-family: cursive;
+}
+
+textarea{
+    width: 30%;
+    height: auto;
+    margin: 1rem;
+    margin-bottom: none;
+    padding: 1rem;
+    box-shadow: rgba(50, 50, 93, 0.25) 10px 13px 27px -5px, rgba(0, 0, 0, 0.3) 0px 8px 16px -8px;
+    border: none;
+
+}
+
+.outputArea{
+    /* border: 1px solid black; */
+    width: 30%;
+    height: 50px;
+    padding: 1rem;
+    margin: 1rem;
+    text-align: left;
+    box-shadow: rgba(50, 50, 93, 0.25) 10px 13px 27px -5px, rgba(0, 0, 0, 0.3) 0px 8px 16px -8px;
+}
+
+button{
+   display: block;
+   /* padding: 1rem; */
+   margin: 1rem;
+   margin-bottom: 1.5rem;
+}
+.navigation{
+    padding: 1rem;
+    padding-bottom: 0.5rem;
+    width: 70%;
+    display: flex;
+    margin-top: -10px;
+    border-bottom-left-radius: 15px;
+    /* justify-content: center; */
+    /* align-self: center; */
+    /* margin: 1rem; */
+    background-image: linear-gradient(to right top, #f9fd00, #ffe100, #ffc600, #ffaa00, #ff8f00);
+}
+img{
+    margin-top: 0.5rem;
+}
+.container{
+    /* border: 1px solid black; */
+    /* width: 60%; */
+    padding-bottom: 1rem;
+    /* text-align: left; */
+}
+
+         
+.btn-grad {
+    background-image: linear-gradient(to right, #FF8008 0%, #FFC837  51%, #FF8008  100%);
+    margin: 10px;
+    padding: 15px 45px;
+    text-align: center;
+    text-transform: uppercase;
+    transition: 0.5s;
+    background-size: 200% auto;
+    color: white;            
+    box-shadow: 0 0 20px #eee;
+    border-radius: 10px;
+    display: block;
+    border: none;
+    box-shadow: rgb(255, 229, 99) 10px 13px 27px -5px, rgb(249, 212, 49) 0px 8px 16px -8px;
+  }
+
+  .btn-grad:hover {
+    background-position: right center; /* change the direction of the change here */
+    color: #fff;
+    text-decoration: none;
+  }
+ 
+  .footer{
+    background-image: linear-gradient(to right top, #f9fd00, #ffe100, #ffc600, #ffaa00, #ff8f00);
+    min-height: auto;
+    margin-top: auto;
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+    display: flex;
+    justify-content: center;
+    border-top-right-radius: 20px;
+    margin: -10px;
+  }
+  .footer-img{
+    margin: 0.5rem;
+  }
+  
+
+  h3{
+    color: #ff4608;
+  }
+  h5{
+    color: #ff4608;
+  }
